@@ -13,3 +13,9 @@ jobs :
         steps:
             - name: failed step
               run: echo "Goodbye world"
+
+    echo-laststep:
+        runs-on: ubuntu-latest
+        steps:
+            - name: last step
+              run: echo "Last step"
